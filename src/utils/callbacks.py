@@ -8,7 +8,7 @@ def get_timestamp(name):
     unique_name = f"{name}_at_{timestamp}"
     return unique_name
 
-def get_callbacks(config , X_train):
+def get_callbacks(config , X_train): 
     
     logs = config["logs"]  
     Unique_dir_name = get_timestamp("tb_logs")
